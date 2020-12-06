@@ -1,0 +1,10 @@
+Data types :
+1. Integers - int: Whole numbers such as 2,3,4,100,10000,23445...
+2. Floating point - float: Numbers with a decimal point 2.3, 4.66, 5.78, 100.3
+3. Strings str - Ordered sequence of characters "Hello",'World', "This is my first program"
+4. Lists list - Ordered sequence of objects [10, "Hello", 100.5]
+5. Dictionaries dict - Unordered key:values: {"myKey":"value", "name":"bhavya"}
+6. Tuples tup - Ordered immutable sequence of objects: (10,"Hello",100.5)
+7. Sets set - Unordered collection of unique objects: {"a","b"}
+8. Boolean bool - Logical value indication: TRUE or FALSE
+
