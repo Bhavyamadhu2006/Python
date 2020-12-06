@@ -41,3 +41,5 @@ print(capitals)
 
 case_fold = last_name.casefold()
 print(case_fold)
+
+#Strings are immutable
