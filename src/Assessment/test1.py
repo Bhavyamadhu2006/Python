@@ -1,3 +1,5 @@
+import math
+
 # 1. Write an equation that uses multiplication, division, an exponent, addition, and subtraction that is equal to 100.25.
 
 number_value = (2 * 10) + (25/100) + (6 % 23) + (1000/25) + (10-1) + (20/1) + (3*2) - 1
@@ -19,3 +21,13 @@ print(answer_three)
 # 3. What is the type of the result of the expression 3 + 1.5 + 4?
 # What would you use to find a number’s square root, as well as its square?
 
+value = 3 + 1.5 + 4
+type_of_value = type(value) #float
+print(type_of_value)
+
+square_value = 2 ** 2
+print(square_value)
+
+price = 144
+square_root = math.sqrt(price)
+print(square_root)
