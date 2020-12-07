@@ -26,3 +26,4 @@ print(value)
 
 results = ["Fizz - {}".format(num) for num in range(0,10) if num%5 == 0]
 print(results)
+
