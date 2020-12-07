@@ -20,7 +20,7 @@ d1 = {
      }
     ]
   }
-value_of_last_key = d1["k1"][0]["nest_key"][1]
+value_of_last_key = d1["k1"][0]["nest_key"][1][0]
 print(value_of_last_key)
 
 # This will be hard and annoying!
@@ -37,7 +37,7 @@ d2 = {
     ]
   }
 
-index_value = d2["k1"][2]["k2"][1]["tough"][2]
+index_value = d2["k1"][2]["k2"][1]["tough"][2][0]
 print(index_value)
 
 # 2.  Can you sort a dictionary? Why or why not?

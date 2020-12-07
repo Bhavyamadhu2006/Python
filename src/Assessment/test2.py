@@ -7,8 +7,8 @@ print(get_e_index)
 # 2. Reverse the string 'hello' using slicing
 
 text = "hello"
-slice_text = text[-1:]
-#print(slice_text)
+slice_text = text[::-1]
+print(slice_text)
 
 # 3. Given the string hello, give two methods of producing the letter 'o' using indexing.
 
